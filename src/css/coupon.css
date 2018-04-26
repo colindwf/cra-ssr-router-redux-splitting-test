@@ -1,0 +1,99 @@
+body{
+	font-family: '微软雅黑';
+}
+/*顶部条*/
+.topest{
+	width: 100%;
+	height: 1.02rem;
+	font-size: 0.34rem;
+	color: #474747;
+	font-family: '微软雅黑';
+	line-height: 1.02rem;
+	padding: 0 0.62rem;
+	font-weight: 600;
+}
+.slogan{
+	color: #ff922c;
+	font-size: 0.54rem;
+	font-weight: normal;
+	padding: 0.05rem 0 0 0;
+}
+.topest span{
+	color: #9a9a9a;
+	margin: 0 0 0 0.27rem;
+	font-weight: normal;
+}
+/*banner图片*/
+.landing-banner{
+	width: 100%;
+	height: 7.74rem;
+	background: url('../images/landing/coupon-banner.png') 0 0 no-repeat;
+	background-size: 100% 100%;
+}
+
+/*输入框悬浮*/
+.input-hover-pop{
+	width: 100%;
+	background: rgba(0,0,0,0.3);
+	padding: 0.44rem;
+	position: fixed;
+	bottom: 0;
+
+}
+.input-hover-con{
+	border-radius: 0.1rem;
+	background: #ededed;
+	padding: 0.52rem 0.26rem;
+}
+.telphone{
+	width: 100%;
+	height: 1.41rem;
+	border: 1px solid #848484;
+	border-radius: 0.06rem;
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+}
+.telphone input{
+	height: 1.41rem;
+	border: none;
+	background: transparent;
+	flex: 1;
+	font-size: 0.42rem;
+}
+.tel-ico{
+	display: inline-block;
+	width: 0.39rem;
+	height: 0.58rem;
+	background: url('../images/landing/tel_icon.png') 0 0 no-repeat;
+	background-size: 100% 100%;
+	margin: 0 0.35rem 0 0.52rem;
+}
+.coupon-button{
+	display: block;
+	width: 100%; 
+	height: 1.32rem;
+	line-height: 1.32rem;
+	background-color: #ff922c;
+	font-size: 0.46rem;
+	color: #fff;
+	text-align: center;
+	margin: 0.2rem 0 0 0;
+	border-radius: 0.06rem;
+	border:none;
+}
+.coupon-money{
+	font-size: 0.6rem;
+}
+/*coupon-pop*/
+.coupon-pop{
+	padding: 0.5rem 0 0.2rem;
+}
+.coupon-pop .title1{
+	font-size: 0.52rem;
+	padding: 0 0 0.2rem;
+}
+.coupon-pop a{
+	color: #333333;
+}

@@ -1,0 +1,36 @@
+{
+  "name": "test_todolist",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "express": "^4.16.3",
+    "prop-types": "^15.6.1",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-loadable": "^5.3.1",
+    "react-redux": "^5.0.7",
+    "react-referer": "^1.0.1",
+    "react-router": "^4.2.0",
+    "react-router-config": "^1.0.0-beta.4",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.1.1",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "server": "node server/bootstrap.js"
+  },
+  "homepage": ".",
+  "devDependencies": {
+    "babel-plugin-dynamic-import-node": "^1.2.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react-app": "^3.1.1",
+    "file-loader": "^1.1.11",
+    "ignore-styles": "^5.0.1"
+  }
+}
